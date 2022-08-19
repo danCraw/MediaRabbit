@@ -1,0 +1,34 @@
+
+.titleBg__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 40px 0 0 60px;
+}
+
+.deskBotContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50%;
+    margin-top: 100px;
+    padding-left: 60px;
+}
+
+.botPageDescription {
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+@media screen and (max-width: 992px) {
+    .botPageDescription {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 762px) {
+    .deskBotContainer {
+        width: 100%;
+    }
+}
+

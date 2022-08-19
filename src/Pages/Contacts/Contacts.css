@@ -1,0 +1,163 @@
+.contactWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 50px 10px 0 10px;
+}
+
+.asideCont {
+    position: fixed;
+}
+
+.contactCols {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.contactTitle {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.info {
+    margin-top: 30px;
+}
+
+.contactInfo {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.contactInfo_phone {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.service {
+    position: relative;
+}
+
+.serviceUl {
+    list-style: none;
+}
+
+.service__label {
+    display: flex;
+    flex-direction: row;
+}
+
+.cs-select {
+    margin-left: 6px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+select {
+    background-color: transparent;
+    border: none;
+    color: #1C7561;
+}
+
+.serveSpan {
+    color: #1C7561;
+    font-size: 20px;
+}
+
+.service__popup {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 15px;
+    background: #286674;
+    border-radius: 10px;
+    padding: 10px 0;
+    width: 200px;
+}
+
+.activeItem {
+    color: #FFFFFF;
+}
+
+.formText {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.titleCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputText {
+    font-size: 20px;
+}
+
+.formField {
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+.formField::placeholder {
+    color: #000000;
+}
+
+.contactBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+    .asideCont {
+        display: none;
+    }
+   .contactTitle {
+       font-size: 25px;
+   }
+    .inputText {
+        font-size: 15px;
+    }
+    .formText {
+        font-size: 15px;
+    }
+    .serveSpan {
+        font-size: 15px;
+    }
+    .contactInfo, .contactInfo_phone {
+        font-size: 15px;
+    }
+    .formField {
+        font-size: 10px;
+        margin-top: 9px;
+        margin-bottom: 3px
+    }
+}
+
+@media screen and (max-width: 571px) {
+    .contactCols {
+        flex-direction: column;
+    }
+    .contactCol {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,74 @@
+.menu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    z-index: 10;
+    background-color: #FFFFFF;
+    transition: .3s all;
+}
+
+.menu.active {
+    transform: translateX(0);
+}
+
+.menuContent {
+    margin: 0 auto;
+    padding: 150px 0;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icon {
+
+}
+
+.close {
+
+}
+
+.cols {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.menuTitle {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.menuLink {
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+    line-height: 19px;
+}
+
+.menuLink:hover {
+    color: #000000;
+}
+
+.menuInfo {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.menuInfo_phone {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
