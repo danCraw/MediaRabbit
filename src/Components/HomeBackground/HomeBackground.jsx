@@ -6,7 +6,7 @@ import mainscreenimg2 from '../../assets/mainscreenimg2.png';
 import mainscreenimg3 from '../../assets/mainscreenimg3.png';
 import mainscreenimg4 from '../../assets/mainscreenimg4.png';
 import tvRabbit from '../../assets/svg/tvrabbit.svg';
-import gif from '../../assets/gif/gif2.gif';
+import gif from '../../assets/gif/main.gif';
 import './HomeBackground.css';
 import { Link } from 'react-router-dom';
 

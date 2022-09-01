@@ -18,11 +18,11 @@ export const Header = () => {
                                  <NavDropdown.Item href="#action3" className='header__link dropDown'>разработка сайтов</NavDropdown.Item>
                              </LinkContainer>
                              <LinkContainer to="/bot">
-                                 <NavDropdown.Item href="#action4" className='header__link dropDown'>разработка телеграмм бота</NavDropdown.Item>
+                                 <NavDropdown.Item href="#action4" className='header__link dropDown'>разработка телеграм бота</NavDropdown.Item>
                              </LinkContainer>
-                             <LinkContainer to="/design">
+                             {/* <LinkContainer to="/design">
                                  <NavDropdown.Item href="#action3" className='header__link dropDown'>дизайн</NavDropdown.Item>
-                             </LinkContainer>
+                             </LinkContainer> */}
                              {/* <LinkContainer to="/post">
                                  <NavDropdown.Item href="#action4" className='header__link dropDown'>постпродкшн</NavDropdown.Item>
                              </LinkContainer> */}

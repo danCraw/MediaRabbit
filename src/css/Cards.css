@@ -107,99 +107,66 @@
 
 
 
-.imagecards{
-    margin-top: 100px;
-}
+/* ПОВОРАЧИВАЮЩИЕСЯ КАРТЫ вверху ПОВОРАЧИВАЮЩИЕСЯ КАРТЫ вверху ПОВОРАЧИВАЮЩИЕСЯ КАРТЫ  ПОВОРАЧИВАЮЩИЕСЯ КАРТЫ   */
 
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 10px;
-    justify-items: center;
-    max-width: 800px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 80px;
+    /* justify-items: center; */
+    max-width: 1000px;
     margin: 0 auto;
+    padding-bottom: 40px;
 }
 
 .card {
-    height: 250px;
-    width: 300px;
-    margin: 65px 0;
-    padding: 0 15px;
-    border: 0;
-}
-
-.inner__item {
-    position: relative;
     display: flex;
+    justify-items: center;
     justify-content: center;
-    align-items: center;
-}
-
-.inner__item:before {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: #371B41;
-    opacity: 0;
-    /* transition: all .4s ease;*/
-    top: 0;
-    left: 0;
+    border: 0; 
 }
 
 .itemFirstTitle {
-    padding-bottom: 100px;
-    position: absolute;
-    display: block;
-    color: #FFFFFF;
-    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20PX;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #898989;
+    
 }
 
-.item__img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.itemSecondTitle {
+  padding-bottom: 80px;
+  color: #898989;
 }
 
 .item__title {
-    /* position: absolute; */
-    left: 15px;
-    bottom: 15px;
-    color: #FFFFFF;
-    font-size: 20px;
-    overflow: hidden;
-    /* width: 95%; */
+   justify-content: center;
 }
 
 .itemHide {
-    /* display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-   */
     display: flex;
-    justify-content:center;
     align-items: center;
+    justify-content: center;
 }
-
-
-.img__cardHide {
-    /* transform: translateY(30px);
-     transition: transform .4s ease; */
-    display: flex;
-    justify-content:center;
+.item__titleText{
+    
     align-items: center;
-
-}
-
-.itemHide > span {
-    display: block;
-    /*  transform: translateY(30px);
-      transition: transform .4s ease;  */
+    text-align: center;
 
 }
 
 .item {
     width: 250px;
     height: 250px;
+}
+
+@media screen and (max-width: 500px){
+    .flip {
+        width: 300px;
+    }
+    .text-shadow {
+        font-size: 25px;
+    }
 }

@@ -28,11 +28,17 @@
     }
 }
 
-
-
 @media screen and (max-width: 560px) {
     .items, .cards {
         grid-template-columns: repeat(1, 1fr);
-        grid-row-gap: 50px;
+        grid-row-gap: 10px;
+    }
+    .second__title {
+        font-size: 30px;
+    }
+    .item__titleText{
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }

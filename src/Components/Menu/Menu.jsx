@@ -16,18 +16,18 @@ export const Menu = ({ active, setActive }) => {
                       <div className="col">
                           <h4 className='menuTitle'>услуги</h4>
                           <Link to="/develop" className='menuLink'>разработка сайтов</Link>
-                          <Link to="/post" className='menuLink'>постпродакшн </Link>
-                          <Link to="/design" className='menuLink'>дизайн</Link>
+                          {/* <Link to="/post" className='menuLink'>постпродакшн </Link>
+                          <Link to="/design" className='menuLink'>дизайн</Link> */}
                           <Link to="/bot" className='menuLink'>разработка телеграм бота </Link>
                       </div>
                       <div className="col">
                           <h4 className='menuTitle'>компания</h4>
-                          <Link to="/about" className='menuLink'>о компании</Link>
+                          <Link to="/layout" className='menuLink'>о компании</Link>
                       </div>
                       <div className="col">
                           <h4 className='menuTitle'>контакты</h4>
                           <p className='menuInfo'>Email: mediarabbit@gmail.com</p>
-                          <p className='menuInfo_phone'>Phone number: 8-999-700-91-02</p>
+                          <p className='menuInfo_phone'>Номер телефона: 8-999-700-91-02</p>
                           <div className="menuBtnContainer">
                               <Link to="/contacts">
                                   <Button/>

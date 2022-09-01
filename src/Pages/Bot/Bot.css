@@ -1,34 +1,133 @@
 
-.titleBg__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding: 40px 0 0 60px;
+* {
+    margin: 0;
+    padding: 0;
+   }
+.backgroundBot{
+    width: 100%;
+    min-height: 800px;
+    align-items: center;
+    position: relative;
 }
 
-.deskBotContainer {
+.botText{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 50%;
-    margin-top: 100px;
+    flex-direction: column;
+    padding-top:60px ;
     padding-left: 60px;
+    
+
+}
+.textBotH5{
+    font-size: 60px;
 }
 
-.botPageDescription {
-    color: #FFFFFF;
-    font-size: 32px;
+.textBot {
+    color: #ffffff;
+    
+    font-weight: 500;
+    line-height: 72px;  
 }
+
+.BotContainer {
+    padding-top: 40px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    line-height: 52px;
+    padding-bottom: 100px; 
+    flex-direction: column;
+    width: 700px;
+}
+
+
+.BotOrderTitle {
+    color: #898989;
+    font-size: 25px;
+}
+.backgroundBotSecond{
+   
+    min-height: 1000px;
+    
+}
+.backgroundBotSecondContainer{
+    padding-top: 100px;
+}
+
+.botArrowImg{
+    display: flex;
+    align-items:center;
+    justify-content: space-around; 
+    /* padding-left: 40px;
+    padding-right: 40px; */
+
+}
+.botOrederImg{
+    padding-bottom: 30px;
+}
+.botOrder{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 60px;
+    max-width: 900px;
+    margin: 0 auto; 
+    
+    
+}
+.botOrderImgDiv{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center; 
+}
+
 
 @media screen and (max-width: 992px) {
     .botPageDescription {
         font-size: 24px;
     }
+    .botOrder{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
+    .botOrderImgDiv{
+        padding-bottom: 80px;
+    }
+    .botArrowImg{
+        display:none;
+    }
+    .backgroundBotSecond{
+        height: 1500px;
+    }
+    .BotContainer{
+        font-size: 20px; 
+        width: 500px; 
+    }
+    .textBotH5{
+        font-size: 40px;
+        
+    }
 }
 
 @media screen and (max-width: 762px) {
+    .backgroundBot{
+        max-height: 1400px;
+    }
     .deskBotContainer {
         width: 100%;
     }
+    .BotContainer{
+        font-size: 20px; 
+        width: 300px; 
+    }
+    .botText{
+        padding-left: 10px;
+        padding-right: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    
 }
 
