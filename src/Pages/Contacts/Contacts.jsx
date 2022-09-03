@@ -14,7 +14,7 @@ export const Contacts = () => {
        handleSubmit
     } = useForm();
 
-    const onSubmit = data => axios.post("http://localhost:5000/api/save_customer", data);
+    const onSubmit = data => axios.post("http://188.225.85.187:8000/api/save_customer", data);
 
   return (
      <>
@@ -44,9 +44,9 @@ export const Contacts = () => {
                                              <p className='formText'>Что вы хотите заказать: </p>
                                               <select className="cs-select" {...register('bid_type')}>
                                                   <option value="" defaultValue={''}>Услуга</option>
-                                                  <option value="1">разработка сайтов</option>
-                                                  <option value="2">разработка телеграм бота</option>
-                                                  <option value="3">дизайн</option>
+                                                  <option value="1">Разработка сайтов</option>
+                                                  <option value="2">Разработка телеграм бота</option>
+                                                  <option value="3">Дизайн</option>
                                               </select>
                                           </div>
                                       </div>

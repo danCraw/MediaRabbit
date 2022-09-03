@@ -15,10 +15,10 @@ export const Header = () => {
                      <Nav className='nav__links'>
                          <NavDropdown title="Услуги" className='header__link' id="navbarScrollingDropdown">
                              <LinkContainer to="/develop">
-                                 <NavDropdown.Item href="#action3" className='header__link dropDown'>разработка сайтов</NavDropdown.Item>
+                                 <NavDropdown.Item href="#action3" className='header__link dropDown'>Разработка сайтов</NavDropdown.Item>
                              </LinkContainer>
                              <LinkContainer to="/bot">
-                                 <NavDropdown.Item href="#action4" className='header__link dropDown'>разработка телеграм бота</NavDropdown.Item>
+                                 <NavDropdown.Item href="#action4" className='header__link dropDown'>Разработка телеграм бота</NavDropdown.Item>
                              </LinkContainer>
                              {/* <LinkContainer to="/design">
                                  <NavDropdown.Item href="#action3" className='header__link dropDown'>дизайн</NavDropdown.Item>

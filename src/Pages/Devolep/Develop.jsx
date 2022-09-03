@@ -39,7 +39,7 @@ export const Develop = () => {
                             <h2 className='headTitle'>Разработка сайтов</h2>
                         </div>
                         <div className='headText'>
-                            <p className='headTextTitle'>
+                            <p className='headTextTitleDev'>
                             Мы разработаем для вас полноценный сайт. 
                             Начиная от идеи, разработаем дизайн макет. 
                             Согласуем его с вами,выберем подходящие технологии, 

@@ -85,13 +85,13 @@
      flex-direction: column;
     }
     .backgroundDevelop{
-        min-height: 900px;
+        min-height: 1050px;
     }
     .headTitle{
         font-size: 40px;
        }
-    .headTextTitle{
-        font-size: 20px;
+    .headTextTitleDev{
+        font-size: 24px;
        }
     .headImg{
         min-height: 244px;
@@ -111,14 +111,17 @@
     .backgroundDevelopSecond{
         height: 1550px;
     }
+    .headText{
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 767px) {
     .headTitle{
-        font-size: 35px;
+        font-size: 40px;
     }
-    .headTextTitle{
-        font-size: 20px;
+    .headTextTitleDev{
+        font-size: 24px;
         padding: 0 20px;
     }
     .headH3 {

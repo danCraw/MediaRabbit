@@ -9,6 +9,7 @@ import cardimg1 from "../../assets/cardimg1.png";
 import cardimg2 from "../../assets/cardimg2.png";
 import cardimg3 from "../../assets/cardimg3.png";
 import cardimg4 from "../../assets/cardimg4.png";
+import mr from "../../assets/mr.jpg";
 
 
 
@@ -30,12 +31,14 @@ export const About = () => {
             </section>
             <section className="centerCont">
                 <div className='pageContent'>
+                
                     <div className='asideCol'>
                         <aside className='aside' onClick={() => setBurgerActive(!burgerActive)}>
                             <FontAwesomeIcon icon={faBars} className='fa-2x'/>
                         </aside>
                     </div>
                     <div className='contentContainer'>
+                    
                         <p className="text__block">
                             текст текст текст тектс текст текст текст тектс
                             текст текст текст тектс текст текст текст тектс

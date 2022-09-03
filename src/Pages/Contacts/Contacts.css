@@ -30,7 +30,7 @@
 .contactInfo {
     font-size: 20px;
     line-height: 24px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .contactInfo_phone {
@@ -110,10 +110,12 @@ select {
 
 .formField {
     background-color: transparent;
-    border: 0;
+    border: 1;
+    border-radius: 5px;
     font-size: 20px;
     margin-top: 5px;
     margin-bottom: 7px;
+    width: 350px;
 }
 
 .formField::placeholder {
@@ -147,8 +149,8 @@ select {
         font-size: 15px;
     }
     .formField {
-        font-size: 10px;
-        margin-top: 9px;
+        font-size: 15px;
+        margin-top: 19px;
         margin-bottom: 3px
     }
 }

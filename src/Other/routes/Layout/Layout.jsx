@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
 import Rectangle48 from "../../../assets/Rectangle 48.png";
+import mr from "../../../assets/mr.jpg";
 
 
 export const Layout = () => {
@@ -19,10 +20,12 @@ export const Layout = () => {
      <>
          <Menu active={burgerActive} setActive={setBurgerActive}/>
          <HomeBackground />
+         
          <section className="title__wrapper">
              <h1 className="second__title">Mediarabbit</h1>
          </section>
         <section className="centerCont">
+        
             <div className='pageContent'>
                 <div className='asideCol'>
                     <aside className='aside' onClick={() => setBurgerActive(!burgerActive)}>
