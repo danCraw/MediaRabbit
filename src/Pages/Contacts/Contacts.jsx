@@ -39,7 +39,7 @@ export const Contacts = () => {
                               <h2 className='contactTitle'>Отправить заявку</h2>
                               <div className='info'>
                                   <form className='form' onSubmit={handleSubmit(onSubmit)}>
-                                      <div className='service' /* ref={servRef} */>
+                                      <div className='service'>
                                           <div className='service__label'>
                                              <p className='formText'>Что вы хотите заказать: </p>
                                               <select className="cs-select" {...register('bid_type')}>

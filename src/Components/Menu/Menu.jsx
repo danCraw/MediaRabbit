@@ -15,6 +15,14 @@ export const Menu = ({ active, setActive }) => {
                   <div className='cols'>
                       <div className="col">
                           <h4 className='menuTitle'>услуги</h4>
+                          <Link to="/develop" className='menuLink'>разработка сайтов</Link>
+                          {/* <Link to="/post" className='menuLink'>постпродакшн </Link>
+                          <Link to="/design" className='menuLink'>дизайн</Link> */}
+                          <Link to="/bot" className='menuLink'>разработка телеграм бота </Link>
+                      </div>
+                      <div className="col">
+                          <h4 className='menuTitle'>компания</h4>
+                          <Link to="/layout" className='menuLink'>о компании</Link>
                           <Link to="/develop" className='menuLink'>Разработка сайтов</Link>
                           {/* <Link to="/post" className='menuLink'>постпродакшн </Link>
                           <Link to="/design" className='menuLink'>дизайн</Link> */}
