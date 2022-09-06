@@ -1,17 +1,19 @@
 .backgroundDevelop{
-    min-height: 800px; 
+    min-height: 800px;
     width: 100%;
 }
 .backgroundDevelopSecond{
     height: 800px;
-    
 }
 
 .headH3{
     color: #ffffff;
     font-size: 40px;
     font-weight: 500;
-    line-height: 72px;  
+    line-height: 72px;
+}
+.headTitle{
+    font-size: 60px;
 }
 .headText{
     padding-top: 40px;
@@ -19,29 +21,28 @@
     font-size: 30px;
     font-weight: 500;
     line-height: 52px;
-    padding-bottom: 100px; 
-    flex-direction: column;
-    width: 600px;
+    padding-bottom: 100px;
+    max-width: 600px;
 }
 .headTextContent{
     display: flex;
     flex-direction: column;
     padding-top:60px ;
-    
+
 }
 
 .headcontent{
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
     align-items: center;
-    justify-items: center; 
+    justify-items: center;
     padding-top: 100px;
     margin: 0 auto;
 }
 .headImg{
-    min-height: 576px;
-    width: 535.26px;
-    position: relative; 
+    min-height: 322px;
+    min-width: 571px;
+    position: relative;
 }
 .cardDevelops{
     padding-top: 100px;
@@ -51,52 +52,99 @@
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 60px;
     max-width: 900px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 .develoOrderImgDiv{
     padding-top: 60px;
     display: flex;
     flex-direction: column;
     align-items:center;
-    justify-content: center; 
+    justify-content: center;
 }
+
 .develoOrederImg{
     padding-bottom: 20px;
 }
+
 .executionOrder{
-padding-bottom: 120px;
+    padding-bottom: 120px;
 }
+
+.devGif {
+    position: absolute;
+    top: 5px;
+    left: 68px;
+}
+
 @media screen and (max-width: 992px) {
     .backgroundBotSecond {
         height: 1600px;
     }
     .headcontent{
-     padding-top: 10px;
-     display: flex;
-     flex-direction: column;
-     
+        padding-top: 10px;
+        flex-direction: column;
     }
     .backgroundDevelop{
-        min-height: 900px;
+        min-height: 1050px;
     }
     .headTitle{
         font-size: 40px;
-       }
-    .headTextTitle{
-        font-size: 20px;
-       }
-
+    }
+    .headTextTitleDev{
+        font-size: 24px;
+    }
     .headImg{
-        min-height: 300px;
-        width: 350px; 
-    }  
+        min-height: 244px;
+        min-width: 433px;
+    }
+    .devGif {
+        top: 1px;
+        height: 212px;
+        width: 338px;
+        left: 50px;
+    }
     .develoOrder{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin: 0 auto;
-    } 
+    }
     .backgroundDevelopSecond{
         height: 1550px;
-        
+    }
+    .headText{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .headTitle{
+        font-size: 40px;
+    }
+    .headTextTitleDev{
+        font-size: 24px;
+        padding: 0 20px;
+    }
+    .headH3 {
+        text-align: center;
+    }
+    .headImg{
+        min-height: 200px;
+        min-width: 350px;
+    }
+    .devGif {
+        height: 178px;
+        width: 276px;
+        left: 39px;
+
+    }
+    .headText{
+        font-size: 59px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .headTextTitle{
+        font-size: 18px;
+        padding: 0 30px;
     }
 }
