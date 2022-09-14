@@ -42,8 +42,8 @@ export const Contacts = () => {
                                       <div className='service'>
                                           <div className='service__label'>
                                              <p className='formText'>Что вы хотите заказать: </p>
-                                              <select className="cs-select" {...register('bid_type')}>
-                                                  <option value="" defaultValue={''}>Услуга</option>
+                                              <select name='bid_type' className="cs-select" {...register('bid_type')} required={true}>
+                                                  <option value="">Услуга</option>
                                                   <option value="1">Разработка сайтов</option>
                                                   <option value="2">Разработка телеграм бота</option>
                                                   <option value="3">Дизайн</option>
