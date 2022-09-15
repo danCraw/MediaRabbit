@@ -110,7 +110,7 @@ select {
 
 .formField {
     background-color: transparent;
-    border: 1;
+    border: 2px solid;
     border-radius: 5px;
     font-size: 20px;
     margin-top: 5px;
@@ -127,6 +127,10 @@ select {
     flex-direction: row;
     justify-content: center;
     margin-top: 50px;
+}
+
+.error {
+    color: #e34d4d;
 }
 
 @media screen and (max-width: 767px) {

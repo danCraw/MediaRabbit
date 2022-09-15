@@ -11,10 +11,12 @@ export const Contacts = () => {
 
     const {
        register,
-       handleSubmit
+       handleSubmit,
+       reset,
+       formState: { errors }
     } = useForm();
 
-    const onSubmit = data => axios.post("http://188.225.85.187:8000/api/save_customer", data);
+    const onSubmit = data => axios.post("http://188.225.85.187:8000/api/save_customer", data, reset());
 
   return (
      <>
@@ -58,18 +60,21 @@ export const Contacts = () => {
                                                      placeholder='Email:'
                                                      {...register('email', {required: true})}
                                               />
+                                              <div className='error'>{errors?.email && <p>Поле не должно быть пустым</p>}</div>
                                               <input className='formField'
                                                      type='text'
                                                      name='phone'
                                                      placeholder='Номер телефона:'
                                                      {...register('phone', {required: true})}
                                               />
+                                              <div className='error'>{errors?.phone && <p>Поле не должно быть пустым</p>}</div>
                                               <input className='formField'
                                                      type='text'
                                                      name='name'
                                                      placeholder='Ваше имя:'
                                                      {...register('name', {required: true})}
                                               />
+                                              <div className='error'>{errors?.name && <p>Поле не должно быть пустым</p>}</div>
                                           </div>
                                       </div>
                                       <div className='contactBtn'>
